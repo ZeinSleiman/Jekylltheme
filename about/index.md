@@ -3,7 +3,7 @@ layout: custom_page
 title: About
 description: Name and Position
 header_image:
-  image_url: /assets/images/about.jpg
+  image_url: /assets/images/about.png
   alt_text: Image Description
   title: Image Title
 ---

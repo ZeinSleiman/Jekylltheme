@@ -16,6 +16,6 @@ Disqus wont show if you run it locally. You will need to remove
 {% if jekyll.environment == "production" %}
 ```
 
-If you would to contribute to the project feel free to add an issue and contribute.
+If you would like to contribute to the project feel free to add an issue and contribute.
 
 I am fairly new to this, so if I am doing something wrong feel free to contact me.
