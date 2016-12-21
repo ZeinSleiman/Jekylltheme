@@ -1,0 +1,10 @@
+{% if page.previous %}
+  <a class="btn btn-secondary" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Older</a>
+{% else %}
+  <a class="btn btn-secondary disabled">&larr; Older</a>
+{% endif %}
+{% if page.next %}
+  <a class="pull-right btn btn-secondary" href="{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
+{% else %}
+  <a class="pull-right btn btn-secondary disabled">Next &rarr;</a>
+{% endif %}

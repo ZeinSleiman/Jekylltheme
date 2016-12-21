@@ -1,0 +1,41 @@
+#
+#Jekyll Settings
+#
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+google_analytics: GoogleAnalyticsCode
+title: Site Title
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: site title
+
+description: Jekyll Theme
+author:
+  name: Author Name
+  email: author@email.com
+  github: mygithubaccount
+  linkedin: mylinkedin
+  keybase: mykeybase
+  bio: Kickass Ninja
+  image: "/assets/images/stock.jpg"
+
+permalink: /blog/:year/:month/:day/:title
+
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+#If you want to add a collection as books for your site
+collections:
+  books:
